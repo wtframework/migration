@@ -1,0 +1,23 @@
+{
+  "name": "wtframework/migration",
+  "description": "What the Framework?! migration",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "wtframework/dbal": "^0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "WTFramework\\Migration\\": "src/"
+    }
+  },
+  "bin": ["bin/migration"],
+  "require-dev": {
+    "pestphp/pest": "^2.30"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
